@@ -1,0 +1,82 @@
+
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+}
+
+body {
+        background: darkslategray;
+}
+
+.name {
+        font-size: 30px;
+        margin: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 150px;
+        float: left;
+}
+
+.miguelimage {
+       float: right;
+       padding: 50px;
+}
+
+.section2 {
+        clear: both;
+}
+
+.citytext {
+        float: right;
+}
+
+.cityimage {
+        float: left;
+}
+
+.section3 {
+        clear: both;
+}
+
+.languagetext {
+        text-align: center;
+}
+
+.tableofphrases {
+        margin-left: 41.5%;
+}
+
+.castleimage {
+        float: right;
+}
+
+.castletext {
+        float: left;
+}
+
+.historicplace2 {
+        clear: both;
+}
+
+.district6-text {
+        float: right;
+}
+
+.district6-image {
+        float: left;
+}
+
+.historicplace3 {
+        clear: both;
+}
+
+.stgeorgecathedralimage {
+        float: right;
+}
+
+.stgeorgecathedraltext {
+        float: left;
+}
+
