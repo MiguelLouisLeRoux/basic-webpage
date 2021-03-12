@@ -1,0 +1,399 @@
+
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+}
+
+
+body {
+        background-color: rgb(118, 177, 197);
+        padding: 5%;
+}
+
+h1 {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+        font-family: Arial, Helvetica, sans-serif;   
+}
+
+img {
+        max-width: 100%;
+        
+}
+
+
+
+.name {
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: left;
+        text-align: center;
+
+        
+}
+
+.firstname {
+        padding-left: 2%;
+}
+
+.miguelimage {
+        float: right;
+        margin-left: 10%;
+        margin-right: 10%;
+        transition: ease-out 0.3s;
+        max-width: 100%;
+        display: block;
+ }
+
+
+#section2 {
+        clear: both;
+        padding-top: 10%;
+}
+
+#section2 > h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3rem;
+        padding-bottom: 5%;
+        
+}
+
+#section2 > img {
+        margin-right: 3%;
+        
+}
+
+#section2 > h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        padding-bottom: 2%;
+}
+
+.london {
+        float: left; 
+        transition: ease-out 0.3s;
+        max-width: 100%;
+        display: block;
+}
+
+/*.cityimage {
+        float: left;
+        padding-top: 5%;
+        margin-right: 50px;
+        transition: ease-out 0.3s;
+        width: 100px;
+        height: 100px;
+}
+
+.favouritecity {
+        padding-top: 50px;
+        padding-left: 650px;
+        
+}
+
+.city {
+        font-size: 25px;
+        font-weight: bolder;
+        padding-bottom: 20px;
+}*/
+
+#section2 > p {
+        font-size: 2rem;
+}
+
+.section3 {
+        clear: both;
+        padding-top: 8%;
+}
+
+.languagetext {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2rem;
+}
+
+.portuguesetext {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 3%;
+        margin-left: 18%;
+        margin-right: 18% ;
+}
+
+table {
+       width: 40%;
+       
+       
+}
+
+.center {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+table, th, td {
+        border: 3px solid lightblue;
+        border-collapse: collapse;
+        margin-top: 2%;
+        font-size: 2rem;
+        text-align: center;
+}
+
+th, td {
+       padding: 2%;
+       align-self: center;
+}
+
+.section4 {
+        margin-top: 8%;
+}
+
+.historicalplaces {
+        text-align: center;
+}
+
+.historicalheader {
+        font-weight: bolder;
+        font-size: 2rem;
+}
+
+.historicaltext {
+        margin-top: 2%;
+        font-size: 2rem;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-bottom: 5%;
+}
+
+.historicplace1 {
+        margin-top: 3%;
+}
+
+.castleimage {
+        float: right;
+        margin-left: 3%;
+        transition: ease-out 0.3s;
+        max-width: 100%;
+        display: block;
+}
+
+
+
+.castletextheading {
+        font-size: 2rem;
+        font-weight: bold;
+        
+}
+
+.castletextpara {
+        font-size: 2rem;
+        margin-top: 3%;
+}
+.historicplace2 {
+        clear: both;
+        padding-top: 3%;
+}
+
+
+.district6-textheading {
+        font-size: 2rem;
+        font-weight: bold;
+}
+
+.district6-textpara {
+        font-size: 2rem;
+        margin-top: 3%;
+}
+
+.district6-image {
+        float: left;
+        margin-right: 3%;
+        transition: ease-out 0.3s;
+        max-width: 100%;
+        display: block;
+}
+
+.historicplace3 {
+        clear: both;
+        padding-top: 3%;
+        margin-bottom: 3%;
+}
+
+.stgeorgecathedralimage {
+        float: right;
+        margin-left: 3%;
+        transition: ease-out 0.3s;
+        max-width: 100%;
+        display: block;
+}
+
+
+.stgeorgecathedraltextheading {
+        font-size: 2rem;
+        font-weight: bold; 
+}
+
+.stgeorgecathedraltextpara {
+        font-size: 2rem;
+        margin-top: 3%;
+}
+
+.footnote {
+        clear: both;
+        text-align: center;
+        padding-top: 4%;
+        font-weight: bold;
+        font-size: 1rem;
+}
+
+@media only screen and (max-width:866px) {
+        .portuguesetext {
+                margin-bottom: 7%;
+        }
+  
+        .historicaltext {
+                margin-bottom: 7%;
+        }
+  
+        .historicplace2 {
+                margin-top: 5%;
+        }
+        
+        .historicplace3 {
+                margin-top: 5%;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+      .name {
+          text-align: center;
+      }
+
+      .Mimage {
+              margin-left: auto;
+              margin-right: auto;
+      }
+
+      .london {
+        width: auto;
+        
+        margin-left: auto;
+        margin-right: auto;
+             
+      }
+
+      .center {
+              margin-left: auto;
+              margin-right: auto;
+      }
+      
+      .portuguesetext {
+              margin-bottom: 7%;
+      }
+
+      .historicaltext {
+              margin-bottom: 7%;
+      }
+
+      .historicplace2 {
+              margin-top: 5%;
+      }
+      
+      .historicplace3 {
+              margin-top: 5%;
+      }
+
+}
+
+
+
+@media only screen and (max-width: 620px) {
+        .name {
+                font-size: 2rem;
+        }
+
+        .Mimage {
+                margin-left: auto;
+                margin-right: auto;
+        }
+
+        #section2 > h1 {
+                font-size: 2rem;
+        }
+
+        #section2 > h2 {
+                font-size: 1.5rem;
+        }
+
+        #section2 > p {
+                font-size: 1.5rem;
+        }
+
+        .languagetext {
+                font-size: 1.5rem;
+        }
+
+        .portuguesetext {
+                font-size: 1.5rem;
+        }
+        
+        th, td {
+                font-size: 1.5rem;
+                padding: 5%;
+                margin: 5%;
+        }
+
+        .historicalheader {
+                font-size: 1.5rem;
+        }
+
+        .historicaltext {
+                font-size: 1.5rem;
+        }
+
+        .castletextheading {
+                font-size: 1.5rem;
+        }
+
+        .castletextpara {
+                font-size: 1.5rem;
+        }
+
+        .district6-textheading {
+                font-size: 1.5rem;
+        }
+
+        .district6-textpara {
+                font-size: 1.5rem;
+        }
+
+        .stgeorgecathedraltextheading {
+                font-size: 1.3rem;
+        }
+
+        .stgeorgecathedraltextpara {
+                font-size: 1.5rem;
+        }
+
+}
+
+@media only screen and (max-width: 620px) {
+       
+       #section2 > h2 {
+               padding-top: 5%;
+       }
+       
+       
+}

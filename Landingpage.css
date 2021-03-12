@@ -1,0 +1,149 @@
+
+* {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    
+  }
+
+body {
+  background-color: black;
+}
+
+.header {
+  background-color: lightblue;
+  box-sizing: border-box;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+/* .buttonsection { */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* padding-top: 10%; */
+  /* text-align: center; */
+/* } */
+
+.button1 {
+ 
+  background-color: crimson;
+  padding: 2%;
+  border-radius: 20px;
+  border-color: crimson;
+  outline: none;
+  margin-top: 17%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  float: left;
+  /* display: block; */
+  /* max-width: 100%; */
+  
+  
+}
+
+
+.button2 {
+  margin-top: 17%;   
+  background-color: crimson;
+  padding: 2%;
+  border-radius: 20px;
+  border-color: crimson;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  float: right; 
+  /* display: block; */
+  /* max-width: 100%; */
+}
+
+
+  
+
+.buttonsection {
+   /* text-align: center; */
+   padding-left: 24%;
+   padding-right: 24%;
+}
+
+@media only screen and (max-width: 1290px) {
+    .buttonsection {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+}
+
+@media only screen and (max-width: 878px) {
+  .buttonsection {
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+  
+}
+
+@media only screen and (max-width: 942px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .button1 {
+    float: none;
+    
+  }
+
+  .button2 {
+    float: none;
+    
+  }
+
+  .buttonsection {
+    text-align: center;
+  }
+
+}
+
+
+@media only screen and (max-width: 878px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media only screen and (max-width: 472px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 417px) {
+  
+  
+  .button1 {
+    font-size: 0.5rem;
+  }
+
+  .button2 {
+    font-size: 0.5rem;
+  }
+
+}
+
+
+
