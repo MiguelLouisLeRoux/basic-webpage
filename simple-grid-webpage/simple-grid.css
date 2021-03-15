@@ -260,14 +260,14 @@ p {
 
 .name {
   text-align: center;
-  margin-left: 33.3%;
-  margin-right: 33.3%;
-} */
+  /* margin-left: 33.3%; */
+  /* margin-right: 33.3%; */
+} 
 
 .mimage {
   text-align: center;
-  margin-left: 33.3%;
-  margin-right: 33.3%;
+  /* margin-left: 33.3%; */
+  /* margin-right: 33.3%; */
 }
 
 .citytextheading {
