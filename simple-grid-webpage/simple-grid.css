@@ -256,6 +256,37 @@ p {
   }
 }
 
+
+
+.name {
+  text-align: center;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+} */
+
+.mimage {
+  text-align: center;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+}
+
+.citytextheading {
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.cityimage {
+  text-align: center;
+  /* margin-right: 33.3%; */
+  /* margin-left: 33.3%; */
+  margin-bottom: 3%;
+}
+
+.favouritcity {
+  margin-bottom: 3%;
+}
+
 .footnote {
   text-align: center;
   padding-top: 3%;
@@ -324,6 +355,21 @@ th, td {
   text-align: center;
   margin-left: 18%;
   margin-right: 18%;
+}
+
+.castletextheading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.district6-textheading {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.stgeorgecathedraltextheading {
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .castle {

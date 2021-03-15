@@ -39,11 +39,11 @@ p {
 }
 
 .name {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: bolder;
-        margin-left: 10%;
-        margin-right: 10%;
-        float: left;
+        margin-left: 30%;
+        /* margin-right: 10%; */
+        /* float: left; */
         text-align: center;
 
         
@@ -54,12 +54,20 @@ p {
 }
 
 .miguelimage {
-        float: right;
-        margin-left: 10%;
-        margin-right: 10%;
+        /* float: right; */
+        /* margin-left: 10%; */
+        margin-right: 30%;
         transition: ease-out 0.3s;
         max-width: 100%;
         display: block;
+        text-align: center;
+ }
+
+ .section1 {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-column-gap: 3%;
+        
  }
 
 
@@ -194,9 +202,9 @@ th, td {
         grid-template-columns: 1fr 1fr 1fr;
 }
 
-.box {
+/* .box {
         
-}
+} */
 
 .historicplace1 {
         margin-top: 3%;
@@ -214,7 +222,9 @@ th, td {
 
 .castletextheading {
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
         
 }
 
@@ -230,7 +240,9 @@ th, td {
 
 .district6-textheading {
         font-size: 1rem;
-        font-weight: bold;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
 }
 
 .district6-textpara {
@@ -263,7 +275,9 @@ th, td {
 
 .stgeorgecathedraltextheading {
         font-size: 1rem;
-        font-weight: bold; 
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 5%;
 }
 
 .stgeorgecathedraltextpara {
@@ -279,7 +293,23 @@ th, td {
         font-size: 1rem;
 }
 
+@media only screen and (max-width:950px) {
+        .name {
+                font-size: 1.5rem;
+                
+        
+                
+        }
+}
+
 @media only screen and (max-width:866px) {
+        .name {
+                font-size: 1.5rem;
+                
+        
+                
+        }
+
         .portuguesetext {
                 margin-bottom: 7%;
         }
@@ -300,12 +330,13 @@ th, td {
 @media only screen and (max-width: 768px) {
       .name {
           text-align: center;
+          font-size: 1.5rem;
       }
 
-      .Mimage {
-              margin-left: auto;
-              margin-right: auto;
-      }
+      /* .Mimage { */
+              /* margin-left: auto; */
+              /* margin-right: auto; */
+      /* } */
 
       .london {
         width: auto;
@@ -349,16 +380,16 @@ th, td {
 
 @media only screen and (max-width: 620px) {
         .name {
-                font-size: 2rem;
+                font-size: 1rem;
         }
 
-        .Mimage {
+        /* .Mimage {
                 margin-left: auto;
                 margin-right: auto;
-        }
+        } */
 
         #section2 > h1 {
-                font-size: 2rem;
+                font-size: 1rem;
         }
 
         #section2 > h2 {
@@ -425,3 +456,15 @@ th, td {
        
        
 }
+
+@media only screen and (max-width: 375px) {
+       
+        .name {
+                font-size: 0.7rem;
+                
+        
+                
+        }
+        
+        
+ }
